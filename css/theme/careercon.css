@@ -9,14 +9,14 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #f7f2d3;
-  background: -moz-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #f7f2d3));
-  background: -webkit-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background-color: #f7f3de; }
+  background: #e9f1d4;
+  background: -moz-radial-gradient(center, circle cover, white 0%, #e9f1d4 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #e9f1d4));
+  background: -webkit-radial-gradient(center, circle cover, white 0%, #e9f1d4 100%);
+  background: -o-radial-gradient(center, circle cover, white 0%, #e9f1d4 100%);
+  background: -ms-radial-gradient(center, circle cover, white 0%, #e9f1d4 100%);
+  background: radial-gradient(center, circle cover, white 0%, #e9f1d4 100%);
+  background-color: #e9f1d4; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -66,7 +66,7 @@ body {
   font-size: 1em; }
 
 .reveal h1 {
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #b4d457, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
 
 /*********************************************
  * OTHER
@@ -209,20 +209,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #8b743d;
+  color: #8ca544;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #c0a86e;
+  color: #b9cc83;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #564826; }
+  background: #5e6f2e; }
 
 /*********************************************
  * IMAGES
@@ -244,7 +244,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #8b743d;
+  border-color: #8ca544;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -252,31 +252,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #8b743d; }
+  border-right-color: #8ca544; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #8b743d; }
+  border-left-color: #8ca544; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #8b743d; }
+  border-bottom-color: #8ca544; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #8b743d; }
+  border-top-color: #8ca544; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #c0a86e; }
+  border-right-color: #b9cc83; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #c0a86e; }
+  border-left-color: #b9cc83; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #c0a86e; }
+  border-bottom-color: #b9cc83; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #c0a86e; }
+  border-top-color: #b9cc83; }
 
 /*********************************************
  * PROGRESS BAR
@@ -285,7 +285,42 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #8b743d;
+  background: #8ca544;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.reveal .dark * {
+  color: #eee; }
+
+.reveal .title {
+  text-align: left; }
+
+.reveal .vspace {
+  padding-top: 9em; }
+
+.reveal .progress {
+  height: 10px; }
+
+.reveal section img {
+  border: none;
+  padding: 0.3em;
+  background: none;
+  box-shadow: none; }
+
+.reveal section img.boxed {
+  background: rgba(255, 255, 255, 0.8); }
+
+.reveal table td, .reveal table th {
+  text-align: center;
+  vertical-align: middle; }
+
+.reveal mark {
+  border-radius: 0.2em;
+  padding: 0 0.2em; }
+
+.reveal .dark mark {
+  color: #333; }
+
+.reveal mark.important {
+  background-color: rgba(50, 250, 50, 0.9); }
